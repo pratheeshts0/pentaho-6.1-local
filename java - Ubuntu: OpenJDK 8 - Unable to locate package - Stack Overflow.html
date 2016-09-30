@@ -1,0 +1,1933 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/QAPage"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>java - Ubuntu: OpenJDK 8 - Unable to locate package - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="http://stackoverflow.com/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com">
+    <meta property="og:type" content="website">
+
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&amp;a">
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Ubuntu: OpenJDK 8 - Unable to locate package">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="So I just installed Ubuntu, and this is my first time working in a Linux environment, so bear with my noobishness here.
+
+Anyway, I downloaded the Java 8 JDK directly from Oracle, but I understand t...">
+    <meta property="og:url" content="http://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package">
+    <link rel="canonical" href="http://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package">
+
+    
+    
+    <script type="text/javascript" async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/ados.js"></script><script async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/quant.js"></script><script async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/beacon.js"></script><script async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/analytics.js"></script><script type="text/javascript" async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/ados_002.js"></script><script src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/jquery.js"></script>
+    <script src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/stub.js"></script>
+    <link rel="stylesheet" type="text/css" href="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/all.css">
+
+            <link rel="alternate" type="application/atom+xml" title="Feed for question 'Ubuntu: OpenJDK 8 - Unable to locate package'" href="http://stackoverflow.com/feeds/question/32942023">
+            <meta name="twitter:app:country" content="US">
+            <meta name="twitter:app:name:iphone" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:iphone" content="871299723">
+            <meta name="twitter:app:url:iphone" content="se-zaphod://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package">
+            <meta name="twitter:app:name:ipad" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:ipad" content="871299723">
+            <meta name="twitter:app:url:ipad" content="se-zaphod://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package">
+            <meta name="twitter:app:name:googleplay" content="Stack Exchange Android">
+            <meta name="twitter:app:url:googleplay" content="http://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package">
+            <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin">
+        <script>
+        
+            StackExchange.ready(function () {
+                    
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.initSnippetRenderer();
+                    });
+                    
+
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+                
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:5,shownCommentCount:5,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:32942023});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('1', '32942023');
+                                                                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.post-text'); });
+
+            });
+        </script>
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","serverTime":1474867704,"routeName":"Questions/Show","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"enableInsertDocLinkDialog":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"b1bc42180e81d124a90d94407415b274","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true}}, {"site":{"allowImageUploads":true,"enableUserHovercards":true,"styleCode":true,"enableNewLinkInsertDialog":true},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"markdown":{"asteriskIntraWordEmphasis":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"d8890ee2b67c","js/moderator.en.js":"715b8154e7d4","js/full-anon.en.js":"241ac710a385","js/full.en.js":"aa93ca6766c8","js/wmd.en.js":"5523300db7c6","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"7a06c58dc08c","js/help.en.js":"a2f92aacc060","js/tageditor.en.js":"85e2187562e8","js/tageditornew.en.js":"bee183f596f7","js/inline-tag-editing.en.js":"4fa1a4a3339e","js/revisions.en.js":"47de10a8358f","js/review.en.js":"e170e4d58ede","js/tagsuggestions.en.js":"11fdd5e2a2d8","js/post-validation.en.js":"0370a6e17b86","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"6e14755d2679","js/keyboard-shortcuts.en.js":"ac7585a98d71","js/external-editor.en.js":"1025cf9ff1f9","js/external-editor.en.js":"1025cf9ff1f9","js/snippet-javascript.en.js":"584357a9d52b","js/snippet-javascript-codemirror.en.js":"a1432c07f177"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+<script async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/full-anon.js"></script><script async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/snippet-javascript.js"></script><script async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/post-validation.js"></script><script async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/prettify-full.js"></script><script async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/external-editor.js"></script><script type="text/javascript" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/adFeedback.js"></script><link rel="stylesheet" href="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/adFeedback.css"></head>
+<body class="question-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+            <script>(function () { var old = $.fn.contents; $.fn.contents = function () { try { return old.apply(this, arguments); } catch (e) { return $([]); } } })()</script>
+        
+
+
+
+
+    <div id="notify-container"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="http://stackoverflow.com/">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com/" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a>
+            </div>
+
+
+
+
+    <a href="http://stackoverflow.com/" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com/" class="site-link js-gps-track" data-id="552" data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+        </ul>
+    </div>
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f32942023%2fubuntu-openjdk-8-unable-to-locate-package" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f32942023%2fubuntu-openjdk-8-unable-to-locate-package" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list.
+            </div>
+    </div>
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com/" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+                <a href="http://stackexchange.com/" class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 161 Stack Exchange sites">
+                    <span class="hidden-text">Stack Exchange</span>
+                </a>
+
+    <a href="#" class="topbar-icon icon-inbox yes-hover js-inbox-button" title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="#" class="topbar-icon icon-achievements yes-hover js-achievements-button" data-unread-class="" title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f32942023%2fubuntu-openjdk-8-unable-to-locate-package" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f32942023%2fubuntu-openjdk-8-unable-to-locate-package" class="login-link">log in</a>
+
+                            <a href="http://stackoverflow.com/tour">tour</a>
+        <a href="#" class="icon-help js-help-button" title="Help Center and other resources">
+            help
+            <span class="triangle"></span>
+        </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="http://stackoverflow.com/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="http://stackoverflow.com/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                        <li>
+                            <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                                Meta
+                                <span class="item-summary">
+                                    Discuss the workings and policies of this site
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                                About Us
+                                <span class="item-summary">
+                                    Learn more about Stack Overflow the company
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://business.stackoverflow.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                                Business
+                                <span class="item-summary">
+                                    Learn more about hiring developers or posting ads with us
+                                </span>
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+                                            </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="/search" method="get" autocomplete="off">
+                    <input name="q" placeholder="Search Q&amp;A" tabindex="1" autocomplete="off" maxlength="240" type="text">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="http://stackoverflow.com/">
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="http://stackoverflow.com/questions">Questions</a></li>
+                            <li><a id="nav-jobs" href="http://stackoverflow.com/jobs?med=site-ui&amp;ref=jobs-tab">Jobs</a></li>
+                                                <li><a id="nav-docs" href="http://stackoverflow.com/documentation">Documentation</a></li>
+                        <li><a id="nav-tags" href="http://stackoverflow.com/tags">Tags</a></li>
+                        <li><a id="nav-users" href="http://stackoverflow.com/users">Users</a></li>
+                        <li><a id="nav-badges" href="http://stackoverflow.com/help/badges">Badges</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion" href="http://stackoverflow.com/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+<div itemscope="" itemtype="http://schema.org/Question">
+    <link itemprop="image" href="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+
+
+    <div id="herobox" class="alternate">
+        <div class="test"></div>
+            <div id="close">
+                <a title="click to minimize"><span>x</span> Dismiss</a>
+            </div>
+        <div class="content">
+            <b>Join the Stack Overflow Community</b>
+            <div class="separator"></div>
+            <div class="blurb">
+                Stack Overflow is a community of 4.7 million programmers, just like you, helping each other.
+                    <br>
+Join them; it only takes a minute:                    <br>
+            </div>
+            <a href="http://stackoverflow.com/users/signup?ssrc=hero&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f32942023%2fubuntu-openjdk-8-unable-to-locate-package" id="tell-me-more" class="button">Sign up</a>
+        </div>
+    </div>
+<script>
+    StackExchange.ready(function () {
+
+        var location = 0;
+        if ($("body").hasClass("questions-page")) {
+            location = 1;;
+        } else if ($("body").hasClass("question-page")) {
+            location = 1;;
+        } else if ($("body").hasClass("faq-page")) {
+            location = 5;;
+        } else if ($("body").hasClass("home-page")) {
+            location = 3;;
+        }
+
+        $('#tell-me-more').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: 'cta', location: location }, true);
+            });
+        });
+        $('#herobox #close').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "minimize", location: location }, true);
+            });
+            $.cookie("hero", "mini", { path: "/", expires: 365 });
+            $.ajax({
+                url: "/hero-mini",
+                success: function (data) {
+                    $("#herobox").fadeOut("fast", function () {
+                        $("#herobox").replaceWith(data);
+                        $("#herobox-mini").fadeIn("fast");
+                    });
+                }
+            });
+            return false;
+        });
+    });
+
+</script>			<div id="question-header">
+                <h1 itemprop="name"><a href="http://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package" class="question-hyperlink">Ubuntu: OpenJDK 8 - Unable to locate package</a></h1>
+		</div>
+			<div id="mainbar">
+
+			
+
+<div class="question" data-questionid="32942023" id="question">
+
+    <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk1874051969",4).setZone(43); });
+            </script>
+                <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input name="_id_" value="32942023" type="hidden">
+        <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">25</span>
+        <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+
+        <a class="star-off" href="#">favorite</a>
+        <div class="favoritecount"><b>8</b></div>
+
+
+</div>
+
+            </td>
+            
+<td class="postcell">
+<div>
+    <div class="post-text" itemprop="text">
+
+<p>So I just installed Ubuntu, and this is my first time working in a Linux environment, so bear with my noobishness here.</p>
+
+<p>Anyway, I downloaded the Java 8 JDK directly from Oracle, but I 
+understand there's also an OpenJDK for Java 8 as well. I have two 
+questions.</p>
+
+<ol>
+<li><p>What is the difference between the Oracle version and OpenJDK. Pros/Cons?</p></li>
+<li><p>When I try and get OpenJDK 8, I can't. I'm pasting the terminal 
+command and the error message I get here, hoping for advice. Again, very
+ new to Linux, been on my first Linux distro ever for less than an hour 
+here at this point.</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln">user@computer</span><span class="pun">:~/</span><span class="typ">Java$</span><span class="pln"> sudo apt</span><span class="pun">-</span><span class="pln">get install openjdk</span><span class="pun">-</span><span class="lit">8</span><span class="pun">-</span><span class="pln">jdk
+</span><span class="typ">Reading</span><span class="pln"> </span><span class="kwd">package</span><span class="pln"> lists</span><span class="pun">...</span><span class="pln"> </span><span class="typ">Done</span><span class="pln">
+</span><span class="typ">Building</span><span class="pln"> dependency tree       
+</span><span class="typ">Reading</span><span class="pln"> state information</span><span class="pun">...</span><span class="pln"> </span><span class="typ">Done</span><span class="pln">
+E</span><span class="pun">:</span><span class="pln"> </span><span class="typ">Unable</span><span class="pln"> to locate </span><span class="kwd">package</span><span class="pln"> openjdk</span><span class="pun">-</span><span class="lit">8</span><span class="pun">-</span><span class="pln">jdk</span></code></pre></li>
+</ol>
+
+<p>Any help would be appreciated. In the meantime, I'm just gonna use the Oracle package. Thanks.</p>
+
+<p>Edit:</p>
+
+<p>So, now I have a new problem. I installed OpenJDK 7, it came with 
+Maven and just installed before I realized I was getting a two-for-one 
+deal. Now I have JDK 7, and Eclipse, and Maven, and they're all working,
+ but I'm stuck on JDK 7 rather than 8.</p>
+
+<p>I saw that there's a link below, I intend to check it out in the 
+morning, it's 2am and I'm tired right now. Any other advice for this new
+ issue would be appreciated, otherwise I will definitely be checking out
+ that link first thing in the morning.</p>
+    </div>
+    <div class="post-taglist">
+        <a href="http://stackoverflow.com/questions/tagged/java" class="post-tag js-gps-track" title="show questions tagged 'java'" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag js-gps-track" title="show questions tagged 'linux'" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag js-gps-track" title="show questions tagged 'ubuntu'" rel="tag">ubuntu</a> 
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/q/32942023" title="short permalink to this question" class="short-link" id="link-post-32942023">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/32942023/edit" class="suggest-edit-post" title="">improve this question</a></div>        
+    </td>
+    <td class="post-signature" align="right">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/32942023/revisions" title="show all edits to this post">edited <span title="2015-10-05 13:11:41Z" class="relativetime">Oct 5 '15 at 13:11</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/409172/jon-heller"><div class="gravatar-wrapper-32"><img src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/N9MDh.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/409172/jon-heller">Jon Heller</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 17,073" dir="ltr">17.1k</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="24 silver badges"><span class="badge2"></span><span class="badgecount">24</span></span><span title="61 bronze badges"><span class="badge3"></span><span class="badgecount">61</span></span>
+        </div>
+    </div>
+</div>    </td>
+    <td class="post-signature owner">
+        <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2015-10-05 05:49:59Z" class="relativetime">Oct 5 '15 at 5:49</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2223059/user2223059"><div class="gravatar-wrapper-32"><img src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/fcc055942e2ce10dd11a6e77a93e2b22.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2223059/user2223059">user2223059</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">750</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</div>
+</td>
+        </tr>
+                
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-32942023" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-53709199" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of 'useful comment' votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy"><a href="http://packages.ubuntu.com/search?keywords=openjdk-8-jdk" rel="nofollow">packages.ubuntu.com/search?keywords=openjdk-8-jdk</a></span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/139985/stephen-c" title="384,814 reputation" class="comment-user">Stephen C</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53709199_32942023"><span title="2015-10-05 05:54:23Z" class="relativetime-clean">Oct 5 '15 at 5:54</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 2 times"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-53709211" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">What version of Ubuntu are you running?  The latest couple of versions have had it available as an installation option.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/1079354/makoto" title="54,356 reputation" class="comment-user">Makoto</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53709211_32942023"><span title="2015-10-05 05:55:09Z" class="relativetime-clean">Oct 5 '15 at 5:55</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-53709344" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Stephen's link will resolve your issue :)</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/1191614/juned" title="3,201 reputation" class="comment-user">juned</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53709344_32942023"><span title="2015-10-05 06:00:30Z" class="relativetime-clean">Oct 5 '15 at 6:00</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-53709642" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Thanks. It's 2am, so I'm 
+going to bed, but I'll check the link in the morning. I added an edit to
+ my question with an additional issue, if you could look it over that 
+would be great. If the existing link/answer will help with that too, I 
+apologize for being too tired to look at it right now, I'll be checking 
+it out in the morning.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2223059/user2223059" title="750 reputation" class="comment-user owner">user2223059</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53709642_32942023"><span title="2015-10-05 06:13:55Z" class="relativetime-clean">Oct 5 '15 at 6:13</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-53709646" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">I'm on ubuntu 14.10 I believe. Whatever the most recent long term release was.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2223059/user2223059" title="750 reputation" class="comment-user owner">user2223059</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53709646_32942023"><span title="2015-10-05 06:14:11Z" class="relativetime-clean">Oct 5 '15 at 6:14</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-32942023" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a>
+        </div>         
+    </td>
+</tr>        </tbody></table>
+</div>
+
+			<div id="answers">
+
+				<a name="tab-top"></a>
+				<div id="answers-header">
+					<div class="subheader answers-subheader">
+						<h2>
+								3 Answers
+                                <span style="display:none;" itemprop="answerCount">3</span>
+						</h2>
+						<div>
+							<div id="tabs">
+        <a href="http://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package?answertab=active#tab-top" data-nav-xhref="" title="Answers with the latest activity first" data-value="active" data-shortcut="A">
+            active</a>
+        <a href="http://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package?answertab=oldest#tab-top" data-nav-xhref="" title="Answers in the order they were provided" data-value="oldest" data-shortcut="O">
+            oldest</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package?answertab=votes#tab-top" data-nav-xhref="" title="Answers with the highest score first" data-value="votes" data-shortcut="V">
+            votes</a>
+</div>
+						</div>
+					</div>    
+				</div>    
+
+
+
+
+  
+<a name="32944272"></a>
+<div id="answer-32944272" class="answer accepted-answer" data-answerid="32944272" itemscope="" itemtype="http://schema.org/Answer" itemprop="acceptedAnswer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input name="_id_" value="32944272" type="hidden">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">48</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+        <span class="vote-accepted-on load-accepted-answer-date" title="loading when this answer was accepted...">accepted</span>
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I advise you to not install packages manually on ubuntu system if 
+there is already a (semi-official) repository able to solve your 
+problem. Further, use Oracle JDK for development, just to avoid (very 
+sporadic) compatibility issues (i've tried many years ago, it's surely 
+better now).</p>
+
+<p>Add the <em>webupd8</em> repo to your system:</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln">sudo add</span><span class="pun">-</span><span class="pln">apt</span><span class="pun">-</span><span class="pln">repository ppa</span><span class="pun">:</span><span class="pln">webupd8team</span><span class="pun">/</span><span class="pln">java
+sudo apt</span><span class="pun">-</span><span class="pln">get update</span></code></pre>
+
+<p>Install your preferred version of jdk (avoid java 9 preview version):</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln">sudo apt</span><span class="pun">-</span><span class="pln">get install oracle</span><span class="pun">-</span><span class="pln">java8</span><span class="pun">-</span><span class="pln">installer</span></code></pre>
+
+<hr>
+
+<p>You can also install multiple version of jdk, mixing openjdk and oracle versions. 
+Then you can use the command <em>update-java-alternatives</em> to switch between installed version:</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pun">#</span><span class="pln"> list available jdk
+update</span><span class="pun">-</span><span class="pln">java</span><span class="pun">-</span><span class="pln">alternatives </span><span class="pun">--</span><span class="pln">list
+
+</span><span class="pun">#</span><span class="pln"> use jdk7
+sudo update</span><span class="pun">-</span><span class="pln">java</span><span class="pun">-</span><span class="pln">alternatives </span><span class="pun">--</span><span class="pln">set java</span><span class="pun">-</span><span class="lit">7</span><span class="pun">-</span><span class="pln">oracle
+
+</span><span class="pun">#</span><span class="pln"> use jdk8
+sudo update</span><span class="pun">-</span><span class="pln">java</span><span class="pun">-</span><span class="pln">alternatives </span><span class="pun">--</span><span class="pln">set java</span><span class="pun">-</span><span class="lit">8</span><span class="pun">-</span><span class="pln">oracle</span></code></pre>
+
+<p><strong>Requirements</strong></p>
+
+<p>If you get <code>add-apt-repository: command not found</code> be sure to have <code>software-properties-common</code> installed:</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln">sudo apt</span><span class="pun">-</span><span class="pln">get install software</span><span class="pun">-</span><span class="pln">properties</span><span class="pun">-</span><span class="pln">common</span></code></pre>
+
+<p><strong>Glossary of commands</strong></p>
+
+<ul>
+<li><p><strong>sudo</strong> <code>&lt;command&gt; [command_arguments]</code>: execute a command with the superuser privilege.</p></li>
+<li><p><strong>add-apt-repository</strong> <code>&lt;PPA_id&gt;</code>: 
+Ubuntu (just like every Debian derivatives and generally speaking every 
+Linux distribution) has a main repository of packages that handle things
+ like package dependencies and updating. In Ubuntu is possible to extend
+ the main repository using a PPA (Personal Package Archive) that usually
+ contains packages not available in the system (just like oracle jdk) or
+ updated versions of available ones (example: LibreOffice 5 in LTS is 
+available only through this <a href="http://ppa.launchpad.net/libreoffice/ppa/ubuntu">PPA</a>).</p></li>
+<li><p><strong>apt-get</strong> ``[install|update|upgrade|purge|...]: it's "the" command-line package handler used to manipulate the <em>state</em>
+ of every repository on the system (installing / updating / upgrading 
+can be viewed as an alteration of the repository current state).</p></li>
+</ul>
+
+<p><em>In our case</em>: with the command <code>sudo add-apt-repository ppa:webupd8team/java</code> we inform the system that the next repository update must retrieve packages information also from webupd8 repo.</p>
+
+<p>With <code>sudo apt-get update</code> we actually update the system repository (all this operations requires superuser privileges, so we prepend <em>sudo</em> to the commands).</p>
+
+<p><code>sudo apt-get install oracle-java8-installer</code></p>
+
+<ul>
+<li><p><strong>update-java-alternatives</strong> (a specific java version of <strong>update-alternatives</strong>):
+ in Ubuntu several packages provides the same functionality (browse the 
+internet, compile mails, edit a text file or provides java/javac 
+executables...). To allows the system to choose the user favourites tool
+ given a specific task a mechanism using <a href="https://en.wikipedia.org/wiki/Symbolic_link">symlinks</a> under <code>/etc/alternatives/</code>
+ is used. Try to update the jdk as indicated above (switch between java 7
+ and java 8) and view how change the output of this command: </p>
+
+<p><code>ls -l /etc/alternatives/java*</code></p></li>
+</ul>
+
+<p><em>In our case</em>: <code>sudo update-java-alternatives --set java-8-oracle</code> update symlinks under /etc/alternatives to point to java-8-oracle executables.</p>
+
+<p><strong>Extras:</strong></p>
+
+<ul>
+<li><p><strong>man</strong> <code>&lt;command&gt;</code>: start using 
+man  to read a really well written and detailed help on (almost) every 
+shell command and its options (every command i mention in this little 
+answer has a man page, try <code>man update-java-alternatives</code>).</p></li>
+<li><p><strong>apt-cache</strong> <code>search &lt;search_key&gt;</code>:
+ query the APT cache to search for a package related with the search_key
+ provided (can be the package name or some word in package description).
+ </p></li>
+<li><p><strong>apt-cache</strong> <code>show &lt;package&gt;</code>: provides APT information for a specific package (package version, installed or not, description).</p></li>
+</ul>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/32944272" title="short permalink to this answer" class="short-link" id="link-post-32944272">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/32944272/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td class="post-signature" align="right">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/32944272/revisions" title="show all edits to this post">edited <span title="2016-06-14 16:34:48Z" class="relativetime">Jun 14 at 16:34</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td class="post-signature" align="right">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2015-10-05 08:34:57Z" class="relativetime">Oct 5 '15 at 8:34</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/4892253/giuseppe-ricupero"><div class="gravatar-wrapper-32"><img src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/photo.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/4892253/giuseppe-ricupero">Giuseppe Ricupero</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">3,308</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="20 bronze badges"><span class="badge3"></span><span class="badgecount">20</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-32944272" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="2" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-53725978" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">The problem is I get a 
+message "Unable to locate package oracle-java8-installer". Same thing 
+happens when I try and get openjdk 8 using the sudo apt-get command.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2223059/user2223059" title="750 reputation" class="comment-user owner">user2223059</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53725978_32944272"><span title="2015-10-05 14:07:06Z" class="relativetime-clean">Oct 5 '15 at 14:07</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-53726087" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">And nevermind that last 
+comment, forgot to do the repo update you put there. At the moment, it 
+appears to be downloading the update.  On a semi-related note, could you
+ include info about the linux commands you put here, like I said I just 
+started using linux and I want to learn as much as I can.  I'll also 
+mention more about if this is working once the download is complete.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2223059/user2223059" title="750 reputation" class="comment-user owner">user2223059</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53726087_32944272"><span title="2015-10-05 14:09:42Z" class="relativetime-clean">Oct 5 '15 at 14:09</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-53726684" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Nice! Installed and working, 
+thanks!!! If you could provide info on what exactly you just had me do, 
+so I can understand it in the future, that'd be great. Again, I'm a 
+linux noob, I only just started running it for the first time.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2223059/user2223059" title="750 reputation" class="comment-user owner">user2223059</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53726684_32944272"><span title="2015-10-05 14:23:57Z" class="relativetime-clean">Oct 5 '15 at 14:23</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-53732052" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Thank you for accepting the answer, i've added a glossary of commands used (and some hints)</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/4892253/giuseppe-ricupero" title="3,308 reputation" class="comment-user">Giuseppe Ricupero</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment53732052_32944272"><span title="2015-10-05 16:45:49Z" class="relativetime-clean">Oct 5 '15 at 16:45</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-63098933" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of 'useful comment' votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@basZero: seems you need to install software properties: <code>apt-get install software-properties-common</code>. I'll update the post consequently to include this requirement. Thanks</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/4892253/giuseppe-ricupero" title="3,308 reputation" class="comment-user">Giuseppe Ricupero</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment63098933_32944272"><span title="2016-06-14 16:21:45Z" class="relativetime-clean">Jun 14 at 16:21</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-32944272" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link " title="expand to show all comments on this post" href="#" onclick="">show <b>2</b> more comments</a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk686711747",4).setZone(44); });
+            </script>
+            <div class="everyonelovesstackoverflow adzerk-vote" id="adzerk686711747"><a href="http://engine.adzerk.net/r?e=eyJhdiI6MTQ4NzQ0LCJhdCI6NCwiYnQiOjAsImNtIjo0NzA4OTIsImNoIjoxMTc4LCJjayI6e30sImNyIjoxNjQ0MjI5LCJkaSI6IjlkY2UwNWMxZjIxNTQ3ZDBiZTJmYzllNTE2YTRiYzU2IiwiZG0iOjEsImZjIjoxOTUwODIwLCJmbCI6MjEzNDk1OSwiaXAiOiIxMDYuNTEuMzkuMTczIiwia3ciOiJqYXZhLGxpbnV4LHVidW50dSIsIm1rIjoibGludXgiLCJudyI6MjIsInBjIjo2LjM2LCJlYyI6Ni4zNiwicHIiOjc2NSwicnQiOjIsInJmIjoiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvLmluLyIsInN0Ijo4Mjc3LCJ1ayI6InVlMS05MmY0ZDdkMTBmNTc0NGQ1OTUyZDhhMDE1Yzk0ZDQ0YiIsInpuIjo0NCwidHMiOjE0NzQ4Njc3MTU0NDksImJmIjp0cnVlLCJwbiI6ImFkemVyazY4NjcxMTc0NyIsInVyIjoiaHR0cDovL2JpdC5seS9xdWF5LWlvIn0&amp;s=dH0zQlbdy79S9z6-v2xIf9xguHQ" rel="nofollow" target="_blank" title=""><img src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/147bd6eeac7d4f5aa7b4668f41924b8c.png" title="" alt="" width="728" height="90" border="0"></a><div class="adzerk-vote-controls" style="display:none;"><div class="adzerk-vote-option adzerk-vote-up"><div class="adzerk-vote-icon"></div></div><div class="adzerk-vote-option adzerk-vote-down"><div class="adzerk-vote-icon"></div></div></div><div class="adzerk-vote-survey" style="display:none;"><form><span>No problem. We won't show you that ad again. Why didn't you like it?</span><ul><li><label><input value="12" name="downvoteReason" type="radio">Uninteresting</label></li><li><label><input value="13" name="downvoteReason" type="radio">Misleading</label></li><li><label><input value="14" name="downvoteReason" type="radio">Offensive</label></li><li><label><input value="15" name="downvoteReason" type="radio">Repetitive</label></li><li><label><input value="16" name="downvoteReason" type="radio">Other</label></li></ul><a href="#" class="adzerk-vote-cancel">Oops! I didn't mean to do this.</a></form></div><img style="position:absolute;" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/i.gif" width="0px" height="0px" border="0"></div>
+  
+<a name="33932047"></a>
+<div id="answer-33932047" class="answer" data-answerid="33932047" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input name="_id_" value="33932047" type="hidden">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">31</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>As you can see I only have java 1.7 installed (on a Ubuntu 14.04 machine).   </p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln">update</span><span class="pun">-</span><span class="pln">java</span><span class="pun">-</span><span class="pln">alternatives </span><span class="pun">-</span><span class="pln">l
+java</span><span class="pun">-</span><span class="lit">1.7</span><span class="pun">.</span><span class="lit">0</span><span class="pun">-</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">amd64 </span><span class="lit">1071</span><span class="pln"> </span><span class="pun">/</span><span class="pln">usr</span><span class="pun">/</span><span class="pln">lib</span><span class="pun">/</span><span class="pln">jvm</span><span class="pun">/</span><span class="pln">java</span><span class="pun">-</span><span class="lit">1.7</span><span class="pun">.</span><span class="lit">0</span><span class="pun">-</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">amd64</span></code></pre>
+
+<p>To install Java 8, I did,</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln">sudo add</span><span class="pun">-</span><span class="pln">apt</span><span class="pun">-</span><span class="pln">repository ppa</span><span class="pun">:</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">r</span><span class="pun">/</span><span class="pln">ppa
+sudo apt</span><span class="pun">-</span><span class="pln">get update
+sudo apt</span><span class="pun">-</span><span class="pln">get install openjdk</span><span class="pun">-</span><span class="lit">8</span><span class="pun">-</span><span class="pln">jdk</span></code></pre>
+
+<p>Afterwards, now I have java 7 and 8,</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln">update</span><span class="pun">-</span><span class="pln">java</span><span class="pun">-</span><span class="pln">alternatives </span><span class="pun">-</span><span class="pln">l
+java</span><span class="pun">-</span><span class="lit">1.7</span><span class="pun">.</span><span class="lit">0</span><span class="pun">-</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">amd64 </span><span class="lit">1071</span><span class="pln"> </span><span class="pun">/</span><span class="pln">usr</span><span class="pun">/</span><span class="pln">lib</span><span class="pun">/</span><span class="pln">jvm</span><span class="pun">/</span><span class="pln">java</span><span class="pun">-</span><span class="lit">1.7</span><span class="pun">.</span><span class="lit">0</span><span class="pun">-</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">amd64
+java</span><span class="pun">-</span><span class="lit">1.8</span><span class="pun">.</span><span class="lit">0</span><span class="pun">-</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">amd64 </span><span class="lit">1069</span><span class="pln"> </span><span class="pun">/</span><span class="pln">usr</span><span class="pun">/</span><span class="pln">lib</span><span class="pun">/</span><span class="pln">jvm</span><span class="pun">/</span><span class="pln">java</span><span class="pun">-</span><span class="lit">1.8</span><span class="pun">.</span><span class="lit">0</span><span class="pun">-</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">amd64</span></code></pre>
+
+<p><strong>BONUS ADDED (how to switch between different versions)</strong></p>
+
+<ul>
+<li>run the follwing command from the terminal:</li>
+</ul>
+
+<blockquote>
+  <p><code>sudo update-alternatives --config java</code></p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="typ">There</span><span class="pln"> are </span><span class="lit">2</span><span class="pln"> choices </span><span class="kwd">for</span><span class="pln"> the alternative java </span><span class="pun">(</span><span class="pln">providing </span><span class="pun">/</span><span class="pln">usr</span><span class="pun">/</span><span class="pln">bin</span><span class="pun">/</span><span class="pln">java</span><span class="pun">).</span><span class="pln">
+
+  </span><span class="typ">Selection</span><span class="pln">    </span><span class="typ">Path</span><span class="pln">                                            </span><span class="typ">Priority</span><span class="pln">   </span><span class="typ">Status</span><span class="pln">
+</span><span class="pun">------------------------------------------------------------</span><span class="pln">
+  </span><span class="lit">0</span><span class="pln">            </span><span class="pun">/</span><span class="pln">usr</span><span class="pun">/</span><span class="pln">lib</span><span class="pun">/</span><span class="pln">jvm</span><span class="pun">/</span><span class="pln">java</span><span class="pun">-</span><span class="lit">7</span><span class="pun">-</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">amd64</span><span class="pun">/</span><span class="pln">jre</span><span class="pun">/</span><span class="pln">bin</span><span class="pun">/</span><span class="pln">java   </span><span class="lit">1071</span><span class="pln">      </span><span class="kwd">auto</span><span class="pln"> mode
+  </span><span class="lit">1</span><span class="pln">            </span><span class="pun">/</span><span class="pln">usr</span><span class="pun">/</span><span class="pln">lib</span><span class="pun">/</span><span class="pln">jvm</span><span class="pun">/</span><span class="pln">java</span><span class="pun">-</span><span class="lit">7</span><span class="pun">-</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">amd64</span><span class="pun">/</span><span class="pln">jre</span><span class="pun">/</span><span class="pln">bin</span><span class="pun">/</span><span class="pln">java   </span><span class="lit">1071</span><span class="pln">      manual mode
+</span><span class="pun">*</span><span class="pln"> </span><span class="lit">2</span><span class="pln">            </span><span class="pun">/</span><span class="pln">usr</span><span class="pun">/</span><span class="pln">lib</span><span class="pun">/</span><span class="pln">jvm</span><span class="pun">/</span><span class="pln">java</span><span class="pun">-</span><span class="lit">8</span><span class="pun">-</span><span class="pln">openjdk</span><span class="pun">-</span><span class="pln">amd64</span><span class="pun">/</span><span class="pln">jre</span><span class="pun">/</span><span class="pln">bin</span><span class="pun">/</span><span class="pln">java   </span><span class="lit">1069</span><span class="pln">      manual mode
+
+</span><span class="typ">Press</span><span class="pln"> enter to keep the current choice</span><span class="pun">[*],</span><span class="pln"> or type selection number</span><span class="pun">:</span></code></pre>
+</blockquote>
+
+<p>As you can see I'm running open jdk 8. To switch to to jdk 7, press <code>1</code> and hit the <kbd>Enter</kbd> key. Do the same for <code>javac</code> as well with, <code>sudo update-alternatives --config javac</code>. </p>
+
+<p>Check versions to confirm the change: <code>java -version</code> and <code>javac -version</code>.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/33932047" title="short permalink to this answer" class="short-link" id="link-post-33932047">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/33932047/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td class="post-signature" align="right">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/33932047/revisions" title="show all edits to this post">edited <span title="2016-02-23 05:11:03Z" class="relativetime">Feb 23 at 5:11</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td class="post-signature" align="right">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2015-11-26 06:36:57Z" class="relativetime">Nov 26 '15 at 6:36</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/601357/killbill"><div class="gravatar-wrapper-32"><img src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/55dfaa0581d04ed45ece000fd326b052.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/601357/killbill">KillBill</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1,244</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="16 silver badges"><span class="badge2"></span><span class="badgecount">16</span></span><span title="26 bronze badges"><span class="badge3"></span><span class="badgecount">26</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-33932047" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-61974431" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Very useful for I didn't know which repo was required to install OpenJDK ! Thanks a lot.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2680850/cram2208" title="179 reputation" class="comment-user">cram2208</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment61974431_33932047"><span title="2016-05-14 02:49:32Z" class="relativetime-clean">May 14 at 2:49</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-62019635" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@cram2208 glad that helped you. thanks for the comment.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/601357/killbill" title="1,244 reputation" class="comment-user">KillBill</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment62019635_33932047"><span title="2016-05-16 01:18:53Z" class="relativetime-clean">May 16 at 1:18</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-62998753" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Is the openjdk-r safe enough for server?</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/1492613/wang" title="831 reputation" class="comment-user">Wang</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment62998753_33932047"><span title="2016-06-11 14:49:52Z" class="relativetime-clean">Jun 11 at 14:49</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-33932047" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="38867935"></a>
+<div id="answer-38867935" class="answer" data-answerid="38867935" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input name="_id_" value="38867935" type="hidden">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">3</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I'm getting OpenJDK 8 from the official Debian repositories, rather 
+than some random PPA or non-free Oracle binary.  Here's how I did it:</p>
+
+<p><code>sudo apt-get install debian-keyring debian-archive-keyring</code></p>
+
+<p>Make <code>/etc/apt/sources.list.d/debian-jessie-backports.list</code>:</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln">deb http</span><span class="pun">:</span><span class="com">//httpredir.debian.org/debian/ jessie-backports main</span></code></pre>
+
+<p>Make <code>/etc/apt/preferences.d/debian-jessie-backports</code>:</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="typ">Package</span><span class="pun">:</span><span class="pln"> </span><span class="pun">*</span><span class="pln">
+</span><span class="typ">Pin</span><span class="pun">:</span><span class="pln"> release o</span><span class="pun">=</span><span class="typ">Debian</span><span class="pun">,</span><span class="pln">a</span><span class="pun">=</span><span class="pln">jessie</span><span class="pun">-</span><span class="pln">backports
+</span><span class="typ">Pin</span><span class="pun">-</span><span class="typ">Priority</span><span class="pun">:</span><span class="pln"> </span><span class="pun">-</span><span class="lit">200</span></code></pre>
+
+<p>Then finally do the install:</p>
+
+<pre class="lang-java prettyprint prettyprinted" style=""><code><span class="pln">sudo apt</span><span class="pun">-</span><span class="pln">get update
+sudo apt</span><span class="pun">-</span><span class="pln">get </span><span class="pun">-</span><span class="pln">t jessie</span><span class="pun">-</span><span class="pln">backports install openjdk</span><span class="pun">-</span><span class="lit">8</span><span class="pun">-</span><span class="pln">jdk</span></code></pre>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/38867935" title="short permalink to this answer" class="short-link" id="link-post-38867935">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/38867935/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td class="post-signature" align="right">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/38867935/revisions" title="show all edits to this post">edited <span title="2016-09-19 19:36:01Z" class="relativetime">Sep 19 at 19:36</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2308683/cricket-007"><div class="gravatar-wrapper-32"><img src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/eac16c9fc481cb6825f8b3a35f916b5c.jpeg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2308683/cricket-007">cricket_007</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 20,726" dir="ltr">20.7k</span><span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span><span title="12 silver badges"><span class="badge2"></span><span class="badgecount">12</span></span><span title="36 bronze badges"><span class="badge3"></span><span class="badgecount">36</span></span>
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td class="post-signature" align="right">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2016-08-10 08:24:33Z" class="relativetime">Aug 10 at 8:24</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/306864/hans-christoph-steiner"><div class="gravatar-wrapper-32"><img src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/f28fe02d407f3973576fbe0ada5f32aa.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/306864/hans-christoph-steiner">Hans-Christoph Steiner</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1,555</span><span title="13 silver badges"><span class="badge2"></span><span class="badgecount">13</span></span><span title="19 bronze badges"><span class="badge3"></span><span class="badgecount">19</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-38867935" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-38867935" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+									<a name="new-answer"></a>
+						<form id="post-form" action="/questions/32942023/answer/submit" method="post" class="post-form">
+						    <input id="post-id" value="32942023" type="hidden">
+                            <input id="qualityBanWarningShown" name="qualityBanWarningShown" value="false" type="hidden">
+                            <input name="referrer" value="https://www.google.co.in/" type="hidden">
+							<h2 class="space">Your Answer</h2>
+
+
+            <script>
+            StackExchange.ifUsing("editor", function () {
+                StackExchange.using("externalEditor", function () {
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.init();
+                    });
+                });
+            }, "code-snippets");
+        </script>
+    
+
+<script>
+    StackExchange.ready(function() {
+        initTagRenderer("".split(" "), "".split(" "));
+       
+        StackExchange.using("externalEditor", function() {
+                // Have to fire editor after snippets, if snippets enabled
+                if (StackExchange.settings.snippets.snippetsEnabled) {
+                    StackExchange.using("snippets", function() {
+                        createEditor();
+                    });
+                }
+                else {
+                    createEditor();
+                }
+            });
+
+            function createEditor() {
+                prepareEditor({
+                    heartbeatType: 'answer',
+                convertImagesToLinks: true,
+                reputationToPostImages: 10,
+                bindNavPrevention: true,
+                postfix: "",
+                    onDemand: true,
+                    discardSelector: ".discard-answer"
+                    ,immediatelyShowMarkdownHelp:true
+                    });
+                
+
+        }
+    });  
+</script>
+
+
+<div id="post-editor" class="post-editor js-post-editor">
+
+    <div style="position: relative;">     
+        <div class="wmd-container">
+            <div id="wmd-button-bar" class="wmd-button-bar"><ul id="wmd-button-row" class="wmd-button-row"><li id="wmd-bold-button" class="wmd-button" style="left: 0px;"><span style="background-position: 0px -20px;"></span></li><li id="wmd-italic-button" class="wmd-button" style="left: 25px;"><span style="background-position: -20px -20px;"></span></li><li id="wmd-spacer1" class="wmd-spacer" style="left: 50px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-link-button" class="wmd-button" style="left: 75px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-quote-button" class="wmd-button" style="left: 100px;"><span style="background-position: -60px -20px;"></span></li><li id="wmd-code-button" class="wmd-button" style="left: 125px;"><span style="background-position: -80px -20px;"></span></li><li id="wmd-image-button" class="wmd-button" style="left: 150px;"><span style="background-position: -100px -20px;"></span></li><li id="wmd-spacer2" class="wmd-spacer" style="left: 175px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-olist-button" class="wmd-button" style="left: 200px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-ulist-button" class="wmd-button" style="left: 225px;"><span style="background-position: -140px -20px;"></span></li><li id="wmd-heading-button" class="wmd-button" style="left: 250px;"><span style="background-position: -160px -20px;"></span></li><li id="wmd-hr-button" class="wmd-button" style="left: 275px;"><span style="background-position: -180px -20px;"></span></li><li id="wmd-spacer3" class="wmd-spacer" style="left: 300px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-undo-button" class="wmd-button" style="left: 325px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-redo-button" class="wmd-button" style="left: 350px;"><span style="background-position: -220px -20px;"></span></li></ul></div>
+            <textarea id="wmd-input" class="wmd-input" name="post-text" cols="92" rows="15" tabindex="101" data-min-length=""></textarea>
+        </div>
+    </div>
+
+    <div class="fl" style="margin-top: 8px; height:24px;">&nbsp;</div>
+    <div id="draft-saved" class="draft-saved community-option fl" style="margin-top: 8px; height:24px; display:none;">draft saved</div>
+
+    <div id="draft-discarded" class="draft-discarded community-option fl" style="margin-top: 8px; height:24px; display:none;">draft discarded</div>
+
+
+
+    <div id="wmd-preview" class="wmd-preview"></div>
+    <div></div>
+    <div class="edit-block">
+        <input id="fkey" name="fkey" value="b1bc42180e81d124a90d94407415b274" type="hidden">
+        <input id="author" name="author" type="text">
+    </div>
+
+
+
+</div>
+							<div style="position: relative;">
+								
+								            <div class="form-item new-post-login">
+        
+                <div class="new-login-form">
+                    <div class="new-login-left">
+                        <h3>Sign up or <a id="login-link" href="http://stackoverflow.com/users/login?ssrc=question_page&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f32942023%2fubuntu-openjdk-8-unable-to-locate-package%23new-answer">log in</a></h3>
+                        <script>
+                            StackExchange.ready(function () {
+                                StackExchange.helpers.onClickDraftSave('#login-link');
+                                    
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();							
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                    
+                            });
+                        </script>
+                        <div class="preferred-login google-login">
+                            <p><span class="icon"></span><span>Sign up using Google</span></p>
+                        </div>
+                        <div class="preferred-login facebook-login">
+                            <p><span class="icon"></span><span>Sign up using Facebook</span></p>
+                        </div>
+                        <div class="preferred-login stackexchange-login">
+                            <p><span class="icon"></span><span>Sign up using Email and Password</span></p>
+                        </div>
+                    </div>
+                    <input name="manual-openid" class="manual-openid" type="hidden">
+                    <input name="use-facebook" class="use-facebook" value="false" type="hidden">
+                    <input name="use-google" class="use-google" value="false" type="hidden">
+                    <input class="submit-openid" value="Submit" style="display:none" type="button">
+                    <div class="new-login-right">
+                                <h3>Post as a guest</h3>
+    <div class="form-item">
+        <table>
+        <tbody><tr>
+                    <td class="vm">
+                <div>
+                    <label for="display-name">Name</label>
+                    <input id="display-name" name="display-name" size="30" maxlength="30" tabindex="105" type="text">
+                </div>
+                <div>
+                    <label for="m-address">Email</label>
+                    <input id="m-address" name="m-address" size="30" maxlength="100" tabindex="106" placeholder="required, but never shown" type="email">
+                </div>
+            </td>
+        </tr>
+        </tbody></table>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <script>
+                StackExchange.ready(
+                    function () {
+                        StackExchange.openid.initPostLogin('.new-post-login', 'http%3a%2f%2fstackoverflow.com%2fquestions%2f32942023%2fubuntu-openjdk-8-unable-to-locate-package%23new-answer', 'question_page');
+                    }
+                );
+            </script>
+            <noscript>
+                        <h3>Post as a guest</h3>
+    <div class="form-item">
+        <table>
+        <tr>
+                    <td class="vm">
+                <div>
+                    <label for="display-name">Name</label>
+                    <input id="display-name" name="display-name" type="text" size="30" maxlength="30" value="" tabindex="105">
+                </div>
+                <div>
+                    <label for="m-address">Email</label>
+                    <input id="m-address" name="m-address" type="email" size="30" maxlength="100" value="" tabindex="106" placeholder="required, but never shown" />
+                </div>
+            </td>
+        </tr>
+        </table>
+    </div>
+
+            </noscript>
+
+							</div>
+           
+															<div class="form-submit cbt">
+									<input id="submit-button" value="Post Your Answer" tabindex="110" type="submit">
+									<a href="#" class="btn-clear discard-answer dno">discard</a>
+
+<p class="privacy-policy-agreement">
+By posting your answer, you agree to the <a href="http://stackexchange.com/legal/privacy-policy" target="_blank">privacy policy</a> and <a href="http://stackexchange.com/legal/terms-of-service" target="_blank">terms of service</a>.</p>
+<input name="legalLinksShown" value="1" type="hidden">								</div>
+						</form>
+
+
+
+						<h2 class="bottom-notice" data-loc="1">
+Not the answer you're looking for?							Browse other questions tagged <a href="http://stackoverflow.com/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="http://stackoverflow.com/questions/tagged/linux" class="post-tag" title="show questions tagged 'linux'" rel="tag">linux</a> <a href="http://stackoverflow.com/questions/tagged/ubuntu" class="post-tag" title="show questions tagged 'ubuntu'" rel="tag">ubuntu</a>  or <a href="http://stackoverflow.com/questions/ask">ask your own question</a>.						</h2>
+			</div>
+		</div>
+				<div id="sidebar" class="show-votes">
+						    <div class="module question-stats">
+			        <table id="qinfo">
+			            <tbody><tr>
+			                <td>
+			                    <p class="label-key">asked</p>
+			                </td>
+			                <td style="padding-left: 10px">
+			                    <p class="label-key" title="2015-10-05 05:49:59Z"><b>11 months ago</b></p>
+			                </td>
+			            </tr>
+			            <tr>
+			                <td>
+			                    <p class="label-key">viewed</p>
+			                </td>
+
+			                <td style="padding-left: 10px">
+			                    <p class="label-key">
+			                        <b>27822 times</b>
+			                    </p>
+			                </td>
+			            </tr>
+			                <tr>
+			                    <td>
+			                        <p class="label-key">active</p>
+			                    </td>
+			                    <td style="padding-left: 10px">
+			                        <p class="label-key"><b><a href="http://stackoverflow.com/questions/32942023/ubuntu-openjdk-8-unable-to-locate-package?lastactivity" class="lastactivity-link" title="2016-09-19 19:36:01Z">6 days ago</a></b></p>
+			                    </td>
+			                </tr>
+			        </tbody></table>
+			    </div>
+						
+			<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk685009457",[5,17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow adzerk-vote" id="adzerk685009457"><a href="http://engine.adzerk.net/r?e=eyJhdiI6NjQ3NzcsImF0Ijo1LCJidCI6MCwiY20iOjQ2NjkyNiwiY2giOjExNzgsImNrIjp7fSwiY3IiOjE2MTY1NDMsImRpIjoiODkyNzYwNjc2ODM4NGFlNmI1NmRmNDkyM2ZkYjM4Y2UiLCJkbSI6MSwiZmMiOjE5MTE0MjAsImZsIjoyMDk2ODMxLCJpcCI6IjEwNi41MS4zOS4xNzMiLCJrdyI6ImphdmEsbGludXgsdWJ1bnR1IiwibWsiOiJ1YnVudHUiLCJudyI6MjIsInBjIjo2LCJlYyI6NiwicHIiOjc2NSwicnQiOjIsInJmIjoiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvLmluLyIsInN0Ijo4Mjc3LCJ1ayI6InVlMS05MmY0ZDdkMTBmNTc0NGQ1OTUyZDhhMDE1Yzk0ZDQ0YiIsInpuIjo0NSwidHMiOjE0NzQ4Njc3MTU0NTEsImJmIjp0cnVlLCJwbiI6ImFkemVyazY4NTAwOTQ1NyIsInVyIjoiaHR0cDovL3R1cmJvbm9taWMuY29tL2ZyZWUtdG9vbC12aG0tZmliZXItb3B0aWMvP3V0bV9zb3VyY2U9c3RhY2tvdmVyZmxvdyZ1dG1fbWVkaXVtPWJhbm5lci1hZCZ1dG1fY2FtcGFpZ249dmhtLWZpYmVyLW9wdGljJnV0bV9jb250ZW50PTMwMHgyNTAmdXRtX3Rlcm09dGFnLXNldC03LXZpcnR1YWxpemF0aW9uIn0&amp;s=X_fPT4c1H2ehdwhTis7RX9aMCDY" rel="nofollow" target="_blank" title=""><img src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/11b74fde8bde429ba89fa8e394323895.png" title="" alt="" width="300" height="250" border="0"></a><div class="adzerk-vote-controls" style="display:none;"><div class="adzerk-vote-option adzerk-vote-up"><div class="adzerk-vote-icon"></div></div><div class="adzerk-vote-option adzerk-vote-down"><div class="adzerk-vote-icon"></div></div></div><div class="adzerk-vote-survey" style="display:none;"><form><span>No problem. We won't show you that ad again. Why didn't you like it?</span><ul><li><label><input value="12" name="downvoteReason" type="radio">Uninteresting</label></li><li><label><input value="13" name="downvoteReason" type="radio">Misleading</label></li><li><label><input value="14" name="downvoteReason" type="radio">Offensive</label></li><li><label><input value="15" name="downvoteReason" type="radio">Repetitive</label></li><li><label><input value="16" name="downvoteReason" type="radio">Other</label></li></ul><a href="#" class="adzerk-vote-cancel">Oops! I didn't mean to do this.</a></form></div><img style="position:absolute;" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/i_002.gif" width="0px" height="0px" border="0"></div>
+            <div id="hireme"></div>
+        <script>
+;(function(n){var u=Object.assign||function(n){for(var i,r,u,f,e=[],t=1;t<arguments.length;t++)e[t-1]=arguments[t];for(i=0,r=e;i<r.length;i++){u=r[i];for(f in u)n[f]=u[f]}return n},r,t,i;try{if(typeof[].indexOf!="function")return;if(r=["stackoverflow.com","serverfault.com","careers.stackoverflow.com","blog.codinghorror.com","joelonsoftware.com","www.joelonsoftware.com"],r[0]!=="*"&&r.indexOf(location.hostname)===-1)return;t=window;t.clc_opts=u({},n,window.clc_opts||{});t.clc_opts.autoload&&(t.clc_init=t.clc_init||[],t.clc_init.push(function(){return t.clc.load()}));i=document.createElement("script");i.async=!0;i.src=t.clc_opts.lib;document.body.appendChild(i)}catch(f){}}).call(null, {"az":true,"kt":2000,"tto":true,"autoload":true,"d":{"sb":["hireme","clc-sb"],"tlb":["careers1","clc-tlb"],"mlb":["careers3","clc-mlb"]},"allowed":["stackoverflow.com","serverfault.com","careers.stackoverflow.com","blog.codinghorror.com","joelonsoftware.com","www.joelonsoftware.com"],"h":"clc.stackoverflow.com","u":"//clc.stackoverflow.com/p.js","lib":"//cdn.sstatic.net/clc/clc.min.js?v=142ae63c2689"});        </script>
+			<div class="module" id="chat-feature">
+
+    <h4><a href="http://chat.stackoverflow.com/" id="h-chat-link" title="25 users active in 24 rooms the last 60 minutes">25 People Chatting</a></h4>
+    <div class="related" id="ad502-rooms"><div class="ad502-room"><h3 class="ad502-room-h3"><span class="ad502-room-title" title="Python"><a href="http://chat.stackoverflow.com/rooms/6">Python</a></span></h3><span title="2016-09-26 02:58:14Z" class="ad502-last-message">2 hours ago - <a href="http://chat.stackoverflow.com/users/1903116">thefourtheye</a></span><br><div class="ad502-users"><a href="http://chat.stackoverflow.com/users/1832539"><img title="idjaw: 2 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/2972ae1ab4d157c88bc94654b96d47be.jpeg" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/1440565"><img title="Code-Apprentice: 2 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/ec430cc01ef4cf4ae63ebbe9e8596f72.png" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/487339"><img title="DSM: 4 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/WLhST.png" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/4251625"><img title="Wes: 5 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/FJslI.jpg" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/4871800"><img title="Arye Guetta: 7 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/photo.jpg" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/918959"><img title="Antti Haapala: 9 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/ca71042d9d6724f4cbc2598195662eb0.jpeg" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/1903116"><img title="thefourtheye: 11 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/w6Ffg.jpg" width="23" height="23"></a></div></div><div class="ad502-room"><h3 class="ad502-room-h3"><span class="ad502-room-title" title="Lounge&lt;C++&gt;"><a href="http://chat.stackoverflow.com/rooms/10">Lounge&lt;C++&gt;</a></span></h3><span title="2016-09-26 02:43:14Z" class="ad502-last-message">2 hours ago - <a href="http://chat.stackoverflow.com/users/726300">Luc Danton</a></span><br><div class="ad502-users"><a href="http://chat.stackoverflow.com/users/726300"><img title="Luc Danton: 2 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/ZWH6H.png" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/1440565"><img title="Code-Apprentice: 2 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/ec430cc01ef4cf4ae63ebbe9e8596f72.png" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/922184"><img title="Mysticial: 4 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/URZNf.jpg" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/1381108"><img title="Rapptz: 4 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/0a55e1b257487441cd435f66bfb413f1.png" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/4892076"><img title="jaggedSpire: 8 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/s6vwT.png" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/273767"><img title="Cubbi: 14 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/363e49843e26763a496164190940ece4.jpeg" width="23" height="23"></a><a href="http://chat.stackoverflow.com/users/406009"><img title="Lalaland: 14 hours ago" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/3au2T.jpg" width="23" height="23"></a></div></div></div>
+    <script>
+    // <!--
+        StackExchange.ready(
+        function () {
+            var options = {
+                chatUrl: 'http://chat.stackoverflow.com',
+                reloadUrl: '/api/recent-chat',
+                preloadData: {"activeUsers":25,"activeRooms":24,"rooms":[{"name":"Python","id":6,"lastPost":1474858694,"posts":1080110,"users":[{"name":"idjaw","id":1832539,"emailhash":"2972ae1ab4d157c88bc94654b96d47be","lastPost":1474857872},{"name":"Code-Apprentice","id":1440565,"emailhash":"ec430cc01ef4cf4ae63ebbe9e8596f72","lastPost":1474857781},{"name":"DSM","id":487339,"emailhash":"!https://i.stack.imgur.com/WLhST.png?s=128\u0026g=1","lastPost":1474851399},{"name":"Wes","id":4251625,"emailhash":"!https://i.stack.imgur.com/FJslI.jpg?s=128\u0026g=1","lastPost":1474846968},{"name":"Arye Guetta","id":4871800,"emailhash":"!https://lh3.googleusercontent.com/-AMWmGtazXYk/AAAAAAAAAAI/AAAAAAAAALI/CoZ8601GkU4/photo.jpg?sz=128","lastPost":1474839683},{"name":"Antti Haapala","id":918959,"emailhash":"ca71042d9d6724f4cbc2598195662eb0","lastPost":1474834434},{"name":"thefourtheye","id":1903116,"emailhash":"!https://i.stack.imgur.com/w6Ffg.jpg?s=128\u0026g=1","lastPost":1474824667}],"messages":[{"date":1474858694,"user":"thefourtheye","userid":1903116}],"singleImage":false,"tags":["documentation","python","python-2.x","python-3.x"]},{"name":"Lounge\u003cC++\u003e","id":10,"lastPost":1474857794,"posts":4724966,"users":[{"name":"Luc Danton","id":726300,"emailhash":"!https://i.stack.imgur.com/ZWH6H.png?s=128\u0026g=1","lastPost":1474857794},{"name":"Code-Apprentice","id":1440565,"emailhash":"ec430cc01ef4cf4ae63ebbe9e8596f72","lastPost":1474857699},{"name":"Mysticial","id":922184,"emailhash":"!https://i.stack.imgur.com/URZNf.jpg?s=128\u0026g=1","lastPost":1474853020},{"name":"Rapptz","id":1381108,"emailhash":"0a55e1b257487441cd435f66bfb413f1","lastPost":1474852155},{"name":"jaggedSpire","id":4892076,"emailhash":"!https://i.stack.imgur.com/s6vwT.png?s=128\u0026g=1","lastPost":1474838420},{"name":"Cubbi","id":273767,"emailhash":"363e49843e26763a496164190940ece4","lastPost":1474816788},{"name":"Lalaland","id":406009,"emailhash":"!https://i.stack.imgur.com/3au2T.jpg?s=128\u0026g=1","lastPost":1474814869}],"messages":[{"date":1474857794,"user":"Luc Danton","userid":726300}],"singleImage":false,"tags":["c++","c++11","c++14","c++-faq"]}]} 
+            };
+
+            StackExchange.chatAd.init(options);
+        });
+    // -->
+    </script>
+
+</div>
+
+            <div class="module sidebar-linked">
+	<h4 id="h-linked">Linked</h4>
+	<div class="linked" data-tracker="lq=1">
+
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/37524603?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">0</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/37524603/unable-to-locate-package-oracle-java8-installer-linux-mint?noredirect=1&amp;lq=1" class="question-hyperlink">Unable to locate package oracle-java8-installer linux mint</a>
+</div>			</div>
+</div>
+
+				<div class="module sidebar-related">
+					<h4 id="h-related">Related</h4>
+                    <div class="related js-gps-related-questions" data-tracker="rq=1">
+                        <div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/2994008?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">4</div></a><a href="http://stackoverflow.com/questions/2994008/packaging-for-ubuntu-web-application?rq=1" class="question-hyperlink">Packaging for Ubuntu - Web Application</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/4579156?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">4</div></a><a href="http://stackoverflow.com/questions/4579156/java-installation-issues-on-ubuntu?rq=1" class="question-hyperlink">Java installation issues on Ubuntu</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/7765429?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">68</div></a><a href="http://stackoverflow.com/questions/7765429/unable-to-install-r-package-in-ubuntu-11-04?rq=1" class="question-hyperlink">Unable to install R package in Ubuntu 11.04</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/15187094?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">1</div></a><a href="http://stackoverflow.com/questions/15187094/installing-eclipse-java-on-ubuntu?rq=1" class="question-hyperlink">Installing Eclipse/Java on Ubuntu</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/17259978?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">1</div></a><a href="http://stackoverflow.com/questions/17259978/ubuntu-unable-to-locate-package?rq=1" class="question-hyperlink">Ubuntu unable to locate package</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/22278849?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">1</div></a><a href="http://stackoverflow.com/questions/22278849/using-ant-on-ubuntu-13-10-with-openjdk?rq=1" class="question-hyperlink">Using Ant on Ubuntu 13.10 with OpenJDK</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/25289482?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">9</div></a><a href="http://stackoverflow.com/questions/25289482/installing-jdk8-on-ubuntu-unable-to-locate-package-update-doesnt-fix?rq=1" class="question-hyperlink">Installing jdk8 on ubuntu- “unable to locate package” update doesn't fix</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/26486116?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">0</div></a><a href="http://stackoverflow.com/questions/26486116/ubuntu-14-04-unable-to-package-classes-into-jar-file?rq=1" class="question-hyperlink">Ubuntu 14.04,unable to package classes into 'jar' file</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/34985203?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">0</div></a><a href="http://stackoverflow.com/questions/34985203/java-version-is-giving-me-the-version-of-openjdk-installed-instead-of-jre-in?rq=1" class="question-hyperlink">java -version is giving me the version of openJDK installed, instead of JRE in $JAVA_HOME</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/36773636?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">0</div></a><a href="http://stackoverflow.com/questions/36773636/ubuntu-14-and-their-openjdk-8-jdk-by-apt-get?rq=1" class="question-hyperlink">Ubuntu 14 and their openjdk-8-jdk (by apt-get)</a></div>
+                    </div>
+				</div>
+            
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li>
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/71091/how-to-increase-chances-of-profiting-from-a-pyramid-scheme-multi-level-marketing" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:93 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to increase chances of profiting from a pyramid scheme/multi-level marketing?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/141520/why-were-hobbits-not-included-in-the-old-lists" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why were Hobbits not included in the old lists?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-physics" title="Physics Stack Exchange"></div><a href="http://physics.stackexchange.com/questions/282286/why-ket-and-bra-notation" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why ket and bra notation?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/137682/how-can-i-prove-that-a-certain-email-was-not-sent-to-my-account" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How can I prove that a certain email was not sent to my account?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="http://aviation.stackexchange.com/questions/31806/what-are-these-diagonal-devices-above-the-leading-edge-of-the-v-22-ospreys-wing" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What are these diagonal devices above the leading edge of the V-22 Osprey's wing?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="http://academia.stackexchange.com/questions/77316/can-a-tenure-track-job-candidate-infer-any-meaning-from-the-response-to-an-initi" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Can a tenure-track job candidate infer any meaning from the response to an initial contact email?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/141496/were-the-horses-in-the-final-frontier-an-earth-breed" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Were the horses in The Final Frontier an Earth breed?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-german" title="German Language Stack Exchange"></div><a href="http://german.stackexchange.com/questions/32111/why-does-leidenschaft-mean-passion-while-leiden-means-to-suffer" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:253 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why does "Leidenschaft" mean "passion" while "leiden" means "to suffer"?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/94291/is-it-a-balanced-number" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is it a balanced number?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-mathoverflow" title="MathOverflow"></div><a href="http://mathoverflow.net/questions/250500/why-do-we-need-random-variables" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why do we need random variables?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/94534/progruzzle-colf" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Progruzzle &amp; Colf
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/104320/does-unbuild-in-unbuild-your-legos-before-putting-them-back-into-the-box-sou" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Does "unbuild" in "Unbuild your Legos before putting them back into the box" sound natural?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/141291/did-balrogs-have-their-own-language" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Did Balrogs have their own language?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/55953/how-can-you-possibly-stop-kill-a-person-who-has-the-ability-to-stop-time" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How can you possibly stop/kill a person who has the ability to stop time?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/56010/why-would-a-country-make-a-declaration-of-war-instead-of-just-invading" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why would a country make a declaration of war instead of just invading?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/43158/on-8x8-board-a-knight-is-on-the-second-square-of-the-last-row-only-moving-upwa" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    On 8x8 board, a knight is on the second square of 
+the last row. Only moving upwards, how many routes to the top?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/259854/is-antenna-length-for-a-baseband-signal-infinity" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is antenna length for a baseband signal infinity?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/312280/split-string-by-delimiter-and-get-n-th-element" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Split string by delimiter and get N-th element
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/56139/can-i-send-s-o-s-in-space-with-just-a-conventional-cellphone" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Can I send S.O.S in space with just a conventional cellphone?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/141508/why-did-luke-leave-owen-and-berus-remains" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why did Luke leave Owen and Beru's remains?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-diy" title="Home Improvement Stack Exchange"></div><a href="http://diy.stackexchange.com/questions/99941/what-is-this-white-powder-on-my-foundation" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What is this white powder on my foundation?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/79368/why-is-the-samsung-galaxy-note7-banned-in-flight" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why is the Samsung Galaxy Note7 banned in flight?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/137418/how-does-google-know-where-i-am" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How does Google know where I am?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/79505/will-a-green-card-holder-have-problems-returning-to-the-usa-after-more-than-six" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Will a green card holder have problems returning to the USA after more than six months away?
+                </a>
+
+            </li>
+    </ul>
+
+        
+</div>
+		</div>
+	
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/question/32942023" title="feed of this question and its answers">
+            <span class="feed-icon"></span>question feed
+        </a>
+    </div>
+</div>	<script>
+StackExchange.ready(function(){$.get('/posts/32942023/ivc/dfe9');});
+</script>
+<noscript>
+    <div><img src="/posts/32942023/ivc/dfe9" class="dno" alt="" width="0" height="0"></div>
+</noscript><div style="display:none" id="prettify-lang">lang-java</div></div>
+
+
+        </div>
+    </div><script async="" src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/clc.js"></script>
+    <div id="footer" class="categories">
+        <div class="footerwrap">            
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                    <a href="http://stackoverflow.com/company/about">about us</a>
+                        <a href="http://stackoverflow.com/tour">tour</a>
+                    <a href="http://stackoverflow.com/help">help</a>
+                    <a href="http://blog.stackoverflow.com/?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com/">chat</a>
+                    <a href="http://data.stackexchange.com/">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackoverflow.com/company/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com/">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tbody><tr>
+            <th colspan="4">
+                Technology
+            </th>
+            <th colspan="2">
+                Life / Arts
+            </th>
+            <th colspan="2">
+                Culture / Recreation
+            </th>
+            <th colspan="2">
+                Science
+            </th>
+            <th>
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="http://stackoverflow.com/" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li>
+                        <li><a href="http://crypto.stackexchange.com/" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://codereview.stackexchange.com/" title="peer programmer code reviews">Code Review</a></li>
+                        <li><a href="http://magento.stackexchange.com/" title="users of the Magento e-Commerce platform">Magento</a></li>
+                        <li><a href="http://dsp.stackexchange.com/" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li>
+                        <li><a href="http://raspberrypi.stackexchange.com/" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li>
+                        <li><a href="http://codegolf.stackexchange.com/" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (7)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://music.stackexchange.com/" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (8)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://ell.stackexchange.com/" title="speakers of other languages learning English">English Language Learners</a></li>
+                        <li><a href="http://japanese.stackexchange.com/" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                        <li><a href="http://anime.stackexchange.com/" title="anime and manga fans">Anime &amp; Manga</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (18)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                        <li><a href="http://cs.stackexchange.com/" title="students, researchers and practitioners of computer science">Computer Science</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://philosophy.stackexchange.com/" title="those interested in logical reasoning">Philosophy</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (3)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</tbody></table>
+                </div>
+            </div>
+            <div id="copyright">
+                site design / logo © 2016 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2016.9.23.4006
+            </div>
+                </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    
+    
+        
+        ados.run.push(function () {
+                setTimeout(function () { $("#adzerk-user-match").remove(); }, window.AUMIframeDone ? 0 : 2000);
+                ados_setKeywords('java,linux,ubuntu');; ados_load();
+        });   
+        
+</script>
+
+    <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            
+            ga('create', 'UA-5620270-1');
+            ga('set', 'dimension2', '|java|linux|ubuntu|');             ga('send', 'pageview');
+        
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+                qc.async = true;
+                qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                s.parentNode.insertBefore(qc, s);
+                _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+                            var sc=document.createElement('script');
+                sc.async=true;
+                sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+                s.parentNode.insertBefore(sc, s);
+                _comscore.push({ c1: "2", c2: "17440561" });
+        })();
+
+    </script>
+        
+    
+            <script type="text/javascript">
+                
+                (function(appendChild) {
+                    Node.prototype.appendChild = function() {
+                        var parent = this;
+                        var newNode = arguments[0];
+                        if (parent.nodeName === 'HEAD'
+                            && newNode
+                            && newNode.nodeName === 'SCRIPT'
+                            && newNode.src) {
+                            
+                            window.setTimeout(function() {
+                                var result = newNode.src.match(/^https:\/\/maps\.googleapis\.com\/maps\/api\/place\/js\/(\w+)Service\./i) || [];
+                                var service = result[1];
+                                if (service) {
+                                    if (service === 'Autocompletion') service =  2;
+                                    else if (service === 'Place') service = 1;
+                                    else service = 0;
+                                    StackExchange.using('gps', function() {
+                                        StackExchange.gps.track('google_maps_places_api.call', { service: service });
+                                    });
+                                }
+                            }, 0);
+                        }
+                        return appendChild.apply(this, arguments);
+                    };
+                })(Node.prototype.appendChild);
+            </script>
+    
+<img src="java%20-%20Ubuntu:%20OpenJDK%208%20-%20Unable%20to%20locate%20package%20-%20Stack%20Overflow_files/to.gif" style="display: none;"></body></html>
